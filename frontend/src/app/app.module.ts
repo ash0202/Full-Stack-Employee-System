@@ -8,13 +8,19 @@ import { EmployeeCreateComponent } from './employee-create/employee-create.compo
 import { FormsModule } from '@angular/forms';
 import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
+import { AttendanceListComponent } from './attendance-list/attendance-list.component';
+import { AddAttendanceComponent } from './add-attendance/add-attendance.component';
+import { AttendanceCreateComponent } from './attendance-create/attendance-create.component';
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeListComponent,
     EmployeeCreateComponent,
     UpdateEmployeeComponent,
-    EmployeeDetailsComponent
+    EmployeeDetailsComponent,
+    AttendanceListComponent,
+    AddAttendanceComponent,
+    AttendanceCreateComponent
   ],
   imports: [
     BrowserModule,

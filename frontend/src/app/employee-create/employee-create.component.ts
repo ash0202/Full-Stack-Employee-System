@@ -13,8 +13,9 @@ export class EmployeeCreateComponent implements OnInit {
 
 
   emp:Employee=new Employee();
+ // userForm:FormGroup
   constructor(private service:EmployeeService,private router:Router) {   
-
+   
 
   }
 
